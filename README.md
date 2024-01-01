@@ -1,5 +1,7 @@
 # MME
 
+![workflow](https://img.shields.io/github/actions/workflow/status/lucarickli/mme/pages.yaml)
+
 Monaco markdown editor
 
 ## Recommended IDE Setup
@@ -25,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# Todo
+
+- Spell checking
+- Keybind settings
