@@ -1,0 +1,27 @@
+@tailwind base;
+@layer base {
+  html,
+  body {
+    min-height: 100%;
+  }
+}
+
+@tailwind components;
+@layer components {
+}
+
+@tailwind utilities;
+@layer utilities {
+  .prose {
+    @apply !max-w-none;
+  }
+
+  .overflow-y-scroll::-webkit-scrollbar-track,
+  .overflow-x-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .overflow-y-scroll,
+  .overflow-x-scroll {
+    scrollbar-color: rgba(100, 100, 100, 0.6) transparent;
+  }
+}
